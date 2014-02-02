@@ -24,6 +24,9 @@
 		6229F7F0189DB9E200521F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229F7CB189DB9E200521F79 /* UIKit.framework */; };
 		6229F7F8189DB9E200521F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6229F7F6189DB9E200521F79 /* InfoPlist.strings */; };
 		6229F7FA189DB9E200521F79 /* SpritePlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229F7F9189DB9E200521F79 /* SpritePlaygroundTests.m */; };
+		6229F808189DBA7F00521F79 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6229F805189DBA7F00521F79 /* background-music-aac.caf */; };
+		6229F809189DBA7F00521F79 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6229F806189DBA7F00521F79 /* pew-pew-lei.caf */; };
+		6229F80A189DBA7F00521F79 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6229F807189DBA7F00521F79 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		6229F7F5189DB9E200521F79 /* SpritePlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpritePlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		6229F7F7189DB9E200521F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6229F7F9189DB9E200521F79 /* SpritePlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritePlaygroundTests.m; sourceTree = "<group>"; };
+		6229F805189DBA7F00521F79 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		6229F806189DBA7F00521F79 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		6229F807189DBA7F00521F79 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 				6229F7DF189DB9E200521F79 /* JMMViewController.m */,
 				6229F7E1189DB9E200521F79 /* JMMMyScene.h */,
 				6229F7E2189DB9E200521F79 /* JMMMyScene.m */,
+				6229F803189DBA7F00521F79 /* SpriteKitSimpleGameResources */,
 				6229F7E4189DB9E200521F79 /* Spaceship.png */,
 				6229F7E6189DB9E200521F79 /* Images.xcassets */,
 				6229F7D0189DB9E200521F79 /* Supporting Files */,
@@ -162,6 +169,24 @@
 				6229F7F6189DB9E200521F79 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6229F803189DBA7F00521F79 /* SpriteKitSimpleGameResources */ = {
+			isa = PBXGroup;
+			children = (
+				6229F804189DBA7F00521F79 /* Sounds */,
+				6229F807189DBA7F00521F79 /* sprites.atlas */,
+			);
+			path = SpriteKitSimpleGameResources;
+			sourceTree = "<group>";
+		};
+		6229F804189DBA7F00521F79 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6229F805189DBA7F00521F79 /* background-music-aac.caf */,
+				6229F806189DBA7F00521F79 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +266,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6229F80A189DBA7F00521F79 /* sprites.atlas in Resources */,
+				6229F808189DBA7F00521F79 /* background-music-aac.caf in Resources */,
 				6229F7D4189DB9E200521F79 /* InfoPlist.strings in Resources */,
 				6229F7E7189DB9E200521F79 /* Images.xcassets in Resources */,
 				6229F7E5189DB9E200521F79 /* Spaceship.png in Resources */,
 				6229F7DD189DB9E200521F79 /* Main.storyboard in Resources */,
+				6229F809189DBA7F00521F79 /* pew-pew-lei.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
